@@ -2,7 +2,7 @@
 const API_BASE_URL = import.meta.env.PROD
   ? (import.meta.env.VITE_API_URL || 'https://ai-wiki-quiz-genarator-backend.onrender.com/api')
   : 'http://localhost:8000/api';
-
+console.log(import.meta.env.VITE_API_URL)
 /**
  * Generate a quiz from a Wikipedia URL
  */
