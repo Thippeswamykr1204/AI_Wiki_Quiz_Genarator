@@ -2,7 +2,7 @@
 // If in production → use your hosted API
 // If in development → use local FastAPI backend
 const API_BASE_URL = import.meta.env.PROD
-  ? 'https://api.yourdomain.com/api'   // ✅ change to your deployed backend
+  ? 'https://ai-wiki-quiz-genarator-backend.onrender.com/api'   // ✅ change to your deployed backend
   : 'http://localhost:8000/api';       // ✅ local backend during development
 
 /**
